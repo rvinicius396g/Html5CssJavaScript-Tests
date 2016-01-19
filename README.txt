@@ -1,0 +1,1 @@
+I'm studdying and trying for take a test of Microsoft, and maybe, take a certification (Who knows)
