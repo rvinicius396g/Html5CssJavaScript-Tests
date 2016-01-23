@@ -1,1 +1,1 @@
-I'm studdying and trying for take a test of Microsoft, and maybe, take a certification (Who knows)
+Here I'm going to post some of my practic exercises that I'm learning reading the book of java Script with html, and watching video os microsof virtual academy.
