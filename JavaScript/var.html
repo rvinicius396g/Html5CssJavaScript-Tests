@@ -10,9 +10,12 @@
             var name = "Vinicius";
             var age = 1997;
             var year = 2016;
+            var jumpl = function (){ document.write("<br/>");}
             document.write("I borned in ",age);
-            document.write("<br/>I am ",year - age," years old");
-            document.write("<br/> My name is ",name);
+            jumpl();
+            document.write("I am ",year - age," years old");
+            jumpl();
+            document.write(" My name is ",name);
             document.write("<hr/>");
             var lucas = 24;
             var carlos = 7;
@@ -21,6 +24,7 @@
             document.write("Carlos has ",carlos," years old");
             // Math.round()  round the value (arredonda o valor)
             document.write("<br/>The average between them is ",Math.round(average));
+            
             
         </script>
     </body>
