@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Situação Atual do Time</title>
+</head>
+<body>
+	<script>
+		function mostrar (frase){
+			document.write(frase+"<br/>");
+		}
+		var vitorias = prompt("Quantos Clubes o CDC Futebol Venceu ?");
+		// parseInt converte uma string em numero (int)
+		var empates = parseInt(prompt("Quantos jogos o CDC Futebol CLube empatou ?"));
+		var pontos = (vitorias * 3) + empates;
+		mostrar("Noso time tem "+ pontos + " pontos");
+
+	</script>
+</body>
+</html>
