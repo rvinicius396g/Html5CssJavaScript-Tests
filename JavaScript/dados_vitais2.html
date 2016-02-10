@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<a href=""></a>
+	<script>
+		document.write("<hr/>");
+		document.write("The same thing of (<a href='dados_vitais.html'>dados_vitais.html</a>), but using functions<br/>");
+
+		var idade = prompt("Insira a sua Idade");
+		var caldias = function(idade){
+				var dias = idade * 365;
+				return dias;
+		}
+		var dias = caldias(idade);
+
+		var dias = idade * 365;
+		var calbatimentos = function(idade){
+			var batimentos = dias * 24 * 60 * 80;
+
+			return batimentos;
+		}
+		var batimentos = calbatimentos(idade);
+
+		document.write("<br/>Você está vivo a "+dias+" dias<br/>");
+		document.write("Seu coração já bateu "+batimentos+" vezes");
+	</script>
+</body>
+</html>
