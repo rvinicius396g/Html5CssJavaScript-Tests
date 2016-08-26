@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>OnClick - Lampada</title>
+</head>
+<body>
+	<script>
+		function Lampada(acao){
+			var img = "";
+
+			switch (acao) {
+				case "quebrar":	img = "img/quebrada.jpg"; break;
+				case "acender": img = "img/acesa.png";	break;
+				case "apagar": img = "img/apagada.jpg";
+			}
+
+			document.getElementById("lampada").src=img;
+		}
+	</script>
+
+
+		<img style="height:172px" id="lampada" src="img/nquebrada.jpg" onClick=" Lampada('quebrar') " onmouseover=" Lampada('acender')"
+		onmouseout="Lampada('apagar')">
+</body>
+</html>
